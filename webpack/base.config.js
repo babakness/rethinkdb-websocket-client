@@ -16,7 +16,8 @@ module.exports = function(isBrowser) {
     plugins: [],
     module: {
       loaders: [
-        { test: /\.js$/, loaders: ['babel', 'eslint'], exclude: /node_modules/ }
+        //{ test: /\.js$/, loaders: ['babel', 'eslint'], exclude: /node_modules/ }
+        { test: /\.js$/, loaders: ['babel', 'eslint'] }
       ]
     }
   };
